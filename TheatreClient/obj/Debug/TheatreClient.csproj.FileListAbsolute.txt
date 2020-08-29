@@ -1,0 +1,66 @@
+c:\users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\bin\Debug\TheatreClient.exe.config
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\bin\Debug\TheatreClient.exe
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\bin\Debug\TheatreClient.pdb
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\bin\Debug\MetroFramework.dll
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\bin\Debug\MySql.Data.dll
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\bin\Debug\MySql.Data.xml
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.csprojResolveAssemblyReference.cache
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Properties.Resources.resources
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.csproj.GenerateResource.Cache
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.exe
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.pdb
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Menu.resources
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Table.resources
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertAbonimenty.resources
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertAuditory.resources
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertAutors.resources
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertDolzhnosti.resources
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertGastroli.resources
+C:\Users\mrvad\documents\visual studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertGiveZvanie.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertGroups.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertNaznachenie.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertPriem.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertRabotniki.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertRoles.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertSetRoles.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertSpektakli.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertTickets.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertZhanry.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertZvanie.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Auth.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertForms.InsertAuth.resources
+C:\Users\mrvad\Documents\Visual Studio 2015\Projects\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Requests.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\bin\Debug\TheatreClient.exe.config
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.exe
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.pdb
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\bin\Debug\TheatreClient.exe
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\bin\Debug\TheatreClient.pdb
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\bin\Debug\MetroFramework.dll
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\bin\Debug\MySql.Data.dll
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\bin\Debug\MySql.Data.xml
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.csprojResolveAssemblyReference.cache
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Auth.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertAbonimenty.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertAuditory.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertForms.InsertAuth.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertAutors.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertDolzhnosti.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertGastroli.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertGiveZvanie.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertGroups.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertNaznachenie.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertPriem.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertRabotniki.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertRoles.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertSetRoles.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertSpektakli.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertTickets.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertZhanry.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.InsertZvanie.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Requests.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Table.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Menu.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.Properties.Resources.resources
+C:\Users\mrvad\Desktop\TheatreClient\TheatreClient\obj\Debug\TheatreClient.csproj.GenerateResource.Cache

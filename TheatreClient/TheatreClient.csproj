@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D8637A3-F271-4960-A8E3-BA8B08E48B5B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TheatreClient</RootNamespace>
+    <AssemblyName>TheatreClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tricon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.10.9\lib\net452\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auth.Designer.cs">
+      <DependentUpon>Auth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertAbonimenty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertAbonimenty.Designer.cs">
+      <DependentUpon>InsertAbonimenty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertAuditory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertAuditory.Designer.cs">
+      <DependentUpon>InsertAuditory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertAuth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertAuth.Designer.cs">
+      <DependentUpon>InsertAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertAutors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertAutors.Designer.cs">
+      <DependentUpon>InsertAutors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertDolzhnosti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertDolzhnosti.Designer.cs">
+      <DependentUpon>InsertDolzhnosti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertPriem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertPriem.Designer.cs">
+      <DependentUpon>InsertPriem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertRabotniki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertRabotniki.Designer.cs">
+      <DependentUpon>InsertRabotniki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertNaznachenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertNaznachenie.Designer.cs">
+      <DependentUpon>InsertNaznachenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertZvanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertZvanie.Designer.cs">
+      <DependentUpon>InsertZvanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertGiveZvanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertGiveZvanie.Designer.cs">
+      <DependentUpon>InsertGiveZvanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertGroups.Designer.cs">
+      <DependentUpon>InsertGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertSpektakli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertSpektakli.Designer.cs">
+      <DependentUpon>InsertSpektakli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertRoles.Designer.cs">
+      <DependentUpon>InsertRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertSetRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertSetRoles.Designer.cs">
+      <DependentUpon>InsertSetRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertZhanry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertZhanry.Designer.cs">
+      <DependentUpon>InsertZhanry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertGastroli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertGastroli.Designer.cs">
+      <DependentUpon>InsertGastroli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForms\InsertTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForms\InsertTickets.Designer.cs">
+      <DependentUpon>InsertTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Requests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Requests.Designer.cs">
+      <DependentUpon>Requests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table.Designer.cs">
+      <DependentUpon>Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Auth.resx">
+      <DependentUpon>Auth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertAbonimenty.resx">
+      <DependentUpon>InsertAbonimenty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertAuditory.resx">
+      <DependentUpon>InsertAuditory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertAuth.resx">
+      <DependentUpon>InsertAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertAutors.resx">
+      <DependentUpon>InsertAutors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertDolzhnosti.resx">
+      <DependentUpon>InsertDolzhnosti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertGastroli.resx">
+      <DependentUpon>InsertGastroli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertGiveZvanie.resx">
+      <DependentUpon>InsertGiveZvanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertGroups.resx">
+      <DependentUpon>InsertGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertNaznachenie.resx">
+      <DependentUpon>InsertNaznachenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertPriem.resx">
+      <DependentUpon>InsertPriem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertRabotniki.resx">
+      <DependentUpon>InsertRabotniki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertRoles.resx">
+      <DependentUpon>InsertRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertSetRoles.resx">
+      <DependentUpon>InsertSetRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertSpektakli.resx">
+      <DependentUpon>InsertSpektakli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertTickets.resx">
+      <DependentUpon>InsertTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertZhanry.resx">
+      <DependentUpon>InsertZhanry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForms\InsertZvanie.resx">
+      <DependentUpon>InsertZvanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Requests.resx">
+      <DependentUpon>Requests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table.resx">
+      <DependentUpon>Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tricon.png" />
+    <Content Include="tricon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
